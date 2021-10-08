@@ -5,31 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>klingon speak</title>
+    <link href="style.css" rel="stylesheet" />
   </head>
-  <style>
-    textarea {
-      width: 90%;
-      padding: 1rem;
-      height: 10vh;
-      margin: 1rem;
-    }
-    #output {
-      border: 1px solid black;
-      height: 10vh;
-      width: 80%;
-      margin: 1rem;
-      padding: 1rem;
-    }
-  </style>
+
   <body>
-    <h1>talk klingon</h1>
+    <header>
+      <h1>talk klingon</h1>
+    </header>
     <textarea
       id="txt-input"
-      placeholder="put your sentence in English and we will convert it to  banana"
+      placeholder="put your sentence in English and we will convert it to klingon"
     ></textarea>
-    <button id="btn-translate">Translate</button>
-    <div style="font-size: larger">Output will come here 👇</div>
+    <button id="btn-translate">Translate To Klingon</button>
+    <div class="output-message">Translation will come here 👇</div>
     <div id="output"></div>
+
+    <footer>
+      <div class="about-heading">about</div>
+      <p>
+        The Klingon language is the constructed language spoken by the Klingons
+        in the Star Trek Universe.Use the translator to convert your text from
+        English to Klingon speak.
+      </p>
+    </footer>
 
     <script src="index.js" type="text/javascript"></script>
   </body>
