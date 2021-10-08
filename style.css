@@ -1,0 +1,49 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  text-align: center;
+}
+:root {
+  --primary-color: #f10d0d;
+}
+
+textarea {
+  width: 90%;
+  padding-top: 1em;
+  height: 15vh;
+  margin: 1rem;
+  resize: none;
+}
+
+#output {
+  border: 2px solid black;
+
+  height: 15vh;
+  width: 75%;
+  margin: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.output-message {
+  padding-top: 0.5rem;
+  font-size: larger;
+}
+#btn-translate {
+  background-color: var(--primary-color);
+  padding: 1rem;
+}
+header {
+  background-color: black;
+  padding: 0.1rem;
+  color: var(--primary-color);
+}
+
+.about-heading {
+  font-size: x-large;
+}
+footer {
+  background-color: black;
+  color: var(--primary-color);
+  padding: 2.9rem;
+}
