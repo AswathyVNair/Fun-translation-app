@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
@@ -26,12 +27,16 @@ textarea {
 }
 
 .output-message {
-  padding-top: 0.5rem;
+  padding-top: 1rem;
   font-size: larger;
 }
 #btn-translate {
   background-color: var(--primary-color);
   padding: 1rem;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  border: none;
 }
 header {
   background-color: black;
